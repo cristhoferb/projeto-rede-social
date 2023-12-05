@@ -32,19 +32,28 @@ section#telefone {
     transform: translate(-50%, -50%); 
 }
 
+section#redes-sociais {
+    text-align: right;
+}
+
 section#redes-sociais a img {
-    width: 60px;
+    width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
-    
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover { 
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+    transition: 0.3s;
 }
 
 iframe#tela {
     position: relative;
     top: 81px;
     left: 23px;
-    width: 266px;
+    width: 265px;
     height: 470px;
-    
 }
